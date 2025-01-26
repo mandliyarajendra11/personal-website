@@ -118,7 +118,7 @@ background-color:var(--body-color);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 3rem;
+    gap: 5rem;
 }
 .aa div{
     text-align: center;

@@ -13,10 +13,10 @@ let navigate=useNavigate();
        <a href='https://www.linkedin.com/in/rajendra-mandliya-a83b97256/?trk=public-profile-join-page' target="_blank"  rel="noopener noreferrer"><i class="uil uil-linkedin-alt"></i></a>
        </div>
         <div className='personal'>
-        <h5>hemlo gumys😉i'm</h5>
-        <h1>rajendra mandliya</h1>
-        <p>fronted web developer good in react js 
-        <br></br><br></br>& also good knowledge about data stracture and algorithm</p>
+        <h3>Hello, </h3>
+        <h1>Rajendra Mandliya</h1>
+        <p>Software Developer | 2+ Years of Experience 
+        <br></br><br></br>Skilled in Node.js, FastAPI, React, Deployment and DSA</p>
         <button className='btn' onClick={()=>{navigate('/contact')}}>message me <i class="uil uil-message"></i></button></div>
         <img src={raj} alt="img" className='background' />
     </section>

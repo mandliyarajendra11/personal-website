@@ -48,7 +48,7 @@ const Header = () => {
 
   return (
    <header className="header bx-border-bottom">
-    <h3>rajendra</h3>   
+    <h3>Portfolio</h3>   
     <ul className="nav">
       <li><NavLink to={`/`}><i className="uil uil-estate nav-icon"></i><span  className='nav-active'>home</span></NavLink></li>
       <li><NavLink to={`about`}><i className="uil uil-head-side nav-icon"></i><span>about</span></NavLink></li>
