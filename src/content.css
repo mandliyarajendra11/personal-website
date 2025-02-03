@@ -1,0 +1,24 @@
+.content-card {
+  border: 1px solid var(--text-color);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px;
+  background-color: var(--container-color);
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.content-card:hover {
+  transform: scale(1.05);
+}
+
+.content-card h5 {
+  font-size: 1.8rem;
+  color: var(--title-color);
+  margin-bottom: 1rem;
+}
+
+.content-card p {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+}

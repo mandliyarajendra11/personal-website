@@ -1,23 +1,23 @@
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@400;500;600&display=swap");
 
-.light-mode{
-  --hue : 0;
---sat :0%;
---title-color:hsl(var(--hue),var(--sat),20%);
---title-color-dark:hsl(var(--hue),var(--sat),0%);
---text-color:hsl(var(--hue),var(--sat),46%);
---body-color:hsl(var(--hue),var(--sat),98%);
---container-color:#fff;
---body-font: 'Poppins', sans-serif;
+.light-mode {
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
+  --body-font: "Poppins", sans-serif;
 }
-.dark-mode{
---title-color:#fafafa;
---title-color-dark:#ffffff;
---text-color:#aeaeae;
---body-color:#121212;
---container-color:#3a3b3c;
---body-font: 'Poppins', sans-serif;
+.dark-mode {
+  --title-color: #fafafa;
+  --title-color-dark: #ffffff;
+  --text-color: #aeaeae;
+  --body-color: #121212;
+  --container-color: #3a3b3c;
+  --body-font: "Poppins", sans-serif;
 }
 * {
   margin: 0;
@@ -25,11 +25,10 @@
   box-sizing: border-box;
   outline: none;
   border: none;
-  list-style: none;
   text-transform: capitalize;
   transition: all 0.2s linear;
 }
-body{
+body {
   background-color: var(--body-color);
 }
 html {
@@ -44,56 +43,83 @@ h1 {
 h2 {
   font-size: 3rem;
   color: var(--title-color-dark);
-
 }
 h3 {
   font-size: 2.5rem;
   color: var(--title-color-dark);
-
 }
 h4 {
   font-size: 2rem;
   color: var(--title-color-dark);
-
 }
 h5 {
   font-size: 1.5rem;
   color: var(--title-color-dark);
-
 }
 p {
   font-size: 1.5rem;
-color: var(--text-color);
+  color: var(--text-color);
 }
-li {
-  font-size: 2rem;
+i {
+  font-size: 1.5rem;
 }
-i{
-  font-size: 2rem;
+.btn-icon {
+  padding: 0.8rem 1.5rem;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
 }
-.btn {
+.btns:hover,
+.btn-icon:hover {
+  background-color: var(--title-color-dark);
+}
+
+.btns {
   padding: 1rem;
-    background-color:var(--title-color);
-    color: var(--container-color);
-border-radius: .5rem;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  border-radius: 0.5rem;
 }
-.btn:hover {
-  background-color:var(--title-color-dark);
+.btns:hover {
+  background-color: var(--title-color-dark);
 }
-a{
+
+a {
   color: var(--body-font);
   text-decoration: none;
 }
-.bx-border{
+.bx-border {
   border: 1px solid var(--text-color);
 }
-.bx-border-bottom{
-  border-bottom: 1px solid var(--text-color) ;
+.bx-border-bottom {
+  border-bottom: 1px solid var(--text-color);
 }
-.bx-border-bottom::before{
+.bx-border-bottom::before {
   display: none;
 }
-.bx-border-up-none{
+.bx-border-up-none {
   border: 1px solid var(--text-color);
   border-top: none;
+}
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.subtitle {
+  font-size: 1.6rem;
+  color: var(--title-color);
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--title-color-dark); /* Dark title color from your theme */
+}
+.title-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.container {
+  margin: 10rem auto;
 }

@@ -1,26 +1,42 @@
-import React from 'react'
-import raj from './raju.jpg'
-import './App.css';
-import './component.css'
-import {useNavigate} from "react-router-dom";
+import React from "react";
+import "./hero.css";
+import raj2 from "./raju.jpg";
 const Hero = () => {
-let navigate=useNavigate();
   return (
-    <section className='hero'>
-       <div className='social'>
-       <a href="https://www.instagram.com/rajendramandliya11/" target="_blank"  rel="noopener noreferrer"><i class="uil uil-instagram"></i></a>
-      <a href='https://github.com/mandliyarajendra11' target="_blank"  rel="noopener noreferrer"> <i class="uil uil-github-alt"></i></a>
-       <a href='https://www.linkedin.com/in/rajendra-mandliya-a83b97256/?trk=public-profile-join-page' target="_blank"  rel="noopener noreferrer"><i class="uil uil-linkedin-alt"></i></a>
-       </div>
-        <div className='personal'>
-        <h3>Hello, </h3>
-        <h1>Rajendra Mandliya</h1>
-        <p>Software Developer | 2+ Years of Experience 
-        <br></br><br></br>Skilled in Node.js, FastAPI, React, Deployment and DSA</p>
-        <button className='btn' onClick={()=>{navigate('/contact')}}>message me <i class="uil uil-message"></i></button></div>
-        <img src={raj} alt="img" className='background' />
+    <section className="hero">
+      <div className="hero-container container">
+        <div className="hero__content">
+          <h3 className="subtitle">Hi, I'm</h3>
+          <h1 className="hero__title">Rajendra Mandliya</h1>
+          <h3 className="hero__subtitle">
+            A Creative <span className="text-color">Web Developer</span>
+          </h3>
+          <p className="hero__description">
+            Passionate about creating beautiful and functional web experiences.
+            Specializing in front-end development with a focus on user-centered
+            design.
+          </p>
+          <div className="hero__buttons">
+            <a href="#contact" className="btns">
+              Get In Touch
+            </a>
+            <a href="#work" className="btn-icon">
+              View Work <i className="bx bx-right-arrow-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div className="hero__image">
+          <div className="image-wrapper">
+            <div
+              className="image-placeholder"
+              style={{ backgroundImage: `url(${raj2})` }}
+            ></div>
+            <div className="image-background"></div>
+          </div>
+        </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

@@ -1,41 +1,76 @@
-const projectApi=[
-    {
-        id: 1,
-        headline:'project 1',
-        des:'this is dec 1',
-        img:"/project1.png",
-        
-        url:'https://github.com/mandliyarajendra11/project-1.git'
-    },
-    {
-        id: 2,
-        headline :'project 2',
-        des:'this is dec 2 ',
-        img:'/project2.png',
-        url:'https://github.com/mandliyarajendra11/project-2.git'
-    }
-    ,
-    {
-        id: 3,
-        headline :'project 3',
-        des:'this is dec 3 ',
-        img:'/project3.png',
-        url:'https://github.com/mandliyarajendra11/project-3.git'
-    },
-    {
-        id: 4,
-        headline :'project 4',
-        des:'this is dec 4 ',
-        img:'/project4.png',
-        url:'https://github.com/mandliyarajendra11/project-4.git'
-    }
-    ,
-    {
-        id: 5,
-        headline :'project 5',
-        des:'this is dec 5 ',
-        img:'/project5.png',
-        url:'https://github.com/mandliyarajendra11/e-commerce-web.git'
-    }
-]
-export default projectApi
+const projectApi = [
+  {
+    id: 1,
+    headline: "Catalyst",
+    des: "Developed a high-performance application with advanced analytics.",
+    img: require("./images/project1.png"),
+    where: "Associate With Techdome",
+    url: "https://github.com/mandliyarajendra11/project-1.git",
+  },
+  {
+    id: 2,
+    headline: "US Connect",
+    des: "Implemented a secure and scalable communication platform.",
+    img: require("./images/project1.png"),
+    where: "Associate With Techdome",
+    url: "https://github.com/mandliyarajendra11/project-2.git",
+  },
+  {
+    id: 3,
+    headline: "Zerokar",
+    des: "A feature-rich web application with dynamic UI components.",
+    img: require("./images/project1.png"),
+    where: "Associate With Techdome",
+    url: "https://github.com/mandliyarajendra11/project-2.git",
+  },
+  {
+    id: 4,
+    headline: "Ticket-Vista",
+    des: "Developed a ticket management system with real-time updates.",
+    img: require("./images/project1.png"),
+    where: "Associate With Techdome",
+    url: "https://github.com/mandliyarajendra11/project-3.git",
+  },
+  {
+    id: 5,
+    headline: "Aand Shakh Sahkari Sanstha",
+    des: "Created a financial management dashboard.",
+    img: require("./images/project1.png"),
+    where: "Freelancing",
+    url: "https://github.com/mandliyarajendra11/project-4.git",
+  },
+  {
+    id: 6,
+    headline: "XGen",
+    des: "Developed an AI-powered e-commerce platform.",
+    img: require("./images/project1.png"),
+    where: "Associate With Technogriff",
+    url: "https://github.com/mandliyarajendra11/e-commerce-web.git",
+  },
+  {
+    id: 7,
+    headline: "Pet Store",
+    des: "Built an online store for pet products and services.",
+    img: require("./images/project1.png"),
+    where: "Personal",
+    url: "https://github.com/mandliyarajendra11/e-commerce-web.git",
+  },
+  {
+    id: 8,
+    headline: "Portfolio",
+    des: "Designed and developed a personal portfolio website.",
+    img: require("./images/project1.png"),
+    where: "Personal",
+    url: "https://github.com/mandliyarajendra11/e-commerce-web.git",
+  },
+  {
+    id: 9,
+    headline: "Portfolio",
+    des: "Open-source portfolio template for developers.",
+    img: require("./images/project1.png"),
+    where: "Open Source",
+    url: "https://github.com/mandliyarajendra11/e-commerce-web.git",
+  },
+];
+
+export default projectApi;
