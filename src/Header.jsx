@@ -46,31 +46,33 @@ const Header = () => {
         <li>
           {/* <NavLink to={`/`}> */}
           <i className="uil uil-estate nav-icon"></i>
-          <span className="nav-active">home</span>
+          <a href="#hero" className="nav-active">
+            home
+          </a>
           {/* </NavLink> */}
         </li>
         <li>
           {/* <NavLink to={`about`}> */}
           <i className="uil uil-head-side nav-icon"></i>
-          <span>about</span>
+          <a href="#about">about</a>
           {/* </NavLink> */}
         </li>
         <li>
           {/* <NavLink to={`skills`}> */}
           <i className="uil uil-brackets-curly nav-icon"></i>
-          <span>skills</span>
+          <a href="#skils">skills</a>
           {/* </NavLink> */}
         </li>
         <li>
           {/* <NavLink to={`project`}> */}
           <i className="uil uil-presentation-play nav-icon"></i>
-          <span>projects</span>
+          <a href="#work">projects</a>
           {/* </NavLink> */}
         </li>
         <li>
           {/* <NavLink to={`contact`}> */}
           <i className="uil uil-message nav-icon"></i>
-          <span>contact</span>
+          <a href="#contact">contact</a>
           {/* </NavLink> */}
         </li>
         <li

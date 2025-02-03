@@ -1,20 +1,23 @@
 import React from "react";
 import "./hero.css";
-import raj2 from "./raju.jpg";
+import raj2 from "./images/profile.jpg";
+
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <div className="hero-container container">
         <div className="hero__content">
           <h3 className="subtitle">Hi, I'm</h3>
           <h1 className="hero__title">Rajendra Mandliya</h1>
           <h3 className="hero__subtitle">
-            A Creative <span className="text-color">Web Developer</span>
+            Building Impactful Digital Experiences
           </h3>
           <p className="hero__description">
-            Passionate about creating beautiful and functional web experiences.
-            Specializing in front-end development with a focus on user-centered
-            design.
+            With over 2 years in the industry, I’ve built and led 12+ projects
+            and managed teams of developers. My technical strengths include
+            Node.js, Fast API, React.js, and robust logging & monitoring. I also
+            contribute to the tech community through my writings and YouTube
+            content.
           </p>
           <div className="hero__buttons">
             <a href="#contact" className="btns">
@@ -27,10 +30,12 @@ const Hero = () => {
         </div>
         <div className="hero__image">
           <div className="image-wrapper">
+            {/* The circular image layout */}
             <div
               className="image-placeholder"
               style={{ backgroundImage: `url(${raj2})` }}
             ></div>
+            {/* Optionally, you can remove or update the background element */}
             <div className="image-background"></div>
           </div>
         </div>

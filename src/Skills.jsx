@@ -79,7 +79,7 @@ export const Skills = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container" id="skils">
       <div className="title-header">
         <h3 className="title">Skills</h3>
         <p className="subtitle">

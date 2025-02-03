@@ -1,16 +1,15 @@
-/* Projects Section Container */
-.projects-section {
-  padding: 4rem 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 /* Headline */
-.headline {
+.title-header .title {
   font-size: 2.5rem;
   font-weight: 600;
   color: var(--title-color-dark);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.title-header .subtitle {
+  font-size: 1.8rem;
+  color: var(--text-color);
+  margin-bottom: 3rem;
 }
 
 /* Grid Layout */
@@ -33,7 +32,7 @@
   height: 100%;
 }
 
-/* Image Container for better control */
+/* Image Container */
 .project-img-container {
   position: relative;
   overflow: hidden;
@@ -50,18 +49,42 @@
   transform: scale(1.05);
 }
 
-/* Project Title and Description */
+/* Project Title */
 .project-card h4 {
   margin: 1rem;
   font-size: 1.8rem;
   color: var(--title-color-dark);
 }
 
-.project-card p {
+/* Clamped Description (truncated text) */
+.project-card p.clamped {
   margin: 0 1rem 1rem;
   font-size: 1.4rem;
   color: var(--text-color);
   flex-grow: 1;
+  white-space: pre-line;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Expanded Description (full text) */
+.project-card p.expanded {
+  margin: 0 1rem 1rem;
+  font-size: 1.4rem;
+  color: var(--text-color);
+  flex-grow: 1;
+  white-space: pre-line;
+}
+
+/* Read More Button */
+.project-card .read-more {
+  margin: 0 1rem 1rem;
+  font-size: 1.4rem;
+  color: var(--title-color);
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /* Action Buttons Container */
@@ -81,17 +104,48 @@
   padding: 0.8rem 1.5rem;
   border-radius: 5px;
   text-transform: uppercase;
+  justify-content: center;
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, transform 0.3s;
 }
 
 .project-card .btns:hover {
   background-color: var(--title-color-dark);
+  transform: translateY(-2px);
 }
 
 /* Ensure icons inside buttons follow theme */
 .project-card .btns i {
   font-size: 2rem;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 1024px) {
+  .fea {
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-card h4 {
+    font-size: 1.6rem;
+  }
+  .project-card p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-card h4 {
+    font-size: 1.4rem;
+  }
+  .project-card p {
+    font-size: 1.2rem;
+  }
+  .project-card .flex {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }

@@ -1,14 +1,37 @@
+/* Title Header */
+.title-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title-header .title {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: var(--title-color);
+  margin-bottom: 0.5rem;
+}
+
+.title-header .subtitle {
+  font-size: 1.8rem;
+  color: var(--text-color);
+}
+
+/* Content Card Styles */
 .content-card {
   border: 1px solid var(--text-color);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px;
   background-color: var(--container-color);
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .content-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .content-card h5 {
@@ -20,5 +43,83 @@
 .content-card p {
   font-size: 1.4rem;
   color: var(--text-color);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Clamped Text (showing limited lines) */
+.content-container .clamped {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Show only 3 lines by default */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Expanded Text (full content) */
+.expanded {
+  /* no line clamping, full text shown */
+}
+
+/* Read More Toggle */
+.content-container .read-more {
+  color: var(--title-color);
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  display: inline-block;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.content-container .read-more:hover {
+  color: var(--title-color-dark);
+}
+
+/* Action Button */
+.content-container .btns {
+  display: inline-block;
+  text-align: center;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: auto; /* push button to bottom */
+}
+
+.content-container .btns:hover {
+  background-color: var(--title-color-dark);
+  transform: translateY(-2px);
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .content-card h5 {
+    font-size: 1.6rem;
+  }
+  .content-container .content-card p {
+    font-size: 1.3rem;
+  }
+  .content-container .read-more {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content-card h5 {
+    font-size: 1.4rem;
+  }
+  .content-card p {
+    font-size: 1.2rem;
+  }
+  .content-container .read-more {
+    font-size: 1.1rem;
+  }
+  .content-container .btns {
+    font-size: 1.2rem;
+    padding: 0.7rem 1.2rem;
+  }
 }
