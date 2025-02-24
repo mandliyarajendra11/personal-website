@@ -20,7 +20,7 @@ const Header = () => {
     }
   }
 
-  const [theme, setTheme] = useState("light-mode");
+  const [theme, setTheme] = useState("dark-mode");
   const [themes, setThemes] = useState("bx bxs-moon");
   const themeChange = () => {
     if (theme === "dark-mode") {
