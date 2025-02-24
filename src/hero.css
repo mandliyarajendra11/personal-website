@@ -127,7 +127,10 @@
     transparent 0%,
     var(--container-color) 150%
   );
-  mix-blend-mode: soft-light;
+   mix-blend-mode: soft-light;
+}
+.image-placeholder::before {
+  display: none;
 }
 
 /* Optional Background Accent */

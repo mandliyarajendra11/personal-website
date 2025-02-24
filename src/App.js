@@ -7,18 +7,20 @@ import { Skills } from "./Skills";
 import Project from "./Project";
 import Contact from "./Contact";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Services from "./Services";
 import Content from "./Content";
 const App = () => {
   return (
     <>
       {/* <  BrowserRouter basename={process.env.PUBLIC_URL}> */}
-      <Header /> <Hero />
+      {/* <Header />  */}
+      <Hero />
       <About />
       <Services />
       <Content />
-      <Skills /> <Project /> <Contact />
+      <Skills /> 
+      <Project />
+       <Contact />
     </>
   );
 };
