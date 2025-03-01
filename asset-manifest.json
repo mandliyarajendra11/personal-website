@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.9f6174a1.css",
-    "main.js": "/personal-website/static/js/main.2b18b35d.js",
+    "main.js": "/personal-website/static/js/main.92c90de1.js",
     "static/js/787.fb771931.chunk.js": "/personal-website/static/js/787.fb771931.chunk.js",
     "static/media/raj2.jpg": "/personal-website/static/media/raj2.43c253db1ca73b42a85a.jpg",
     "static/media/raj.pdf": "/personal-website/static/media/raj.dbe39ecf847e7af1cc12.pdf",
     "static/media/profile2.jpg": "/personal-website/static/media/profile2.e4210b89fb033a2ce8ad.jpg",
+    "static/media/pet-store.png": "/personal-website/static/media/pet-store.b850f83f1ae2c1fba8f6.png",
+    "static/media/portfolio.png": "/personal-website/static/media/portfolio.74ae95342a29d92e8eef.png",
+    "static/media/catalyst.jpg": "/personal-website/static/media/catalyst.d6ed70a8aeda5d0f116f.jpg",
+    "static/media/zerokar.jpg": "/personal-website/static/media/zerokar.78ddf4d326bb140a354e.jpg",
+    "static/media/telecom.jpg": "/personal-website/static/media/telecom.a633b8758f4243f69e78.jpg",
+    "static/media/insurance.jpg": "/personal-website/static/media/insurance.bbe23352f572615e19c0.jpg",
     "index.html": "/personal-website/index.html",
     "main.9f6174a1.css.map": "/personal-website/static/css/main.9f6174a1.css.map",
-    "main.2b18b35d.js.map": "/personal-website/static/js/main.2b18b35d.js.map",
+    "main.92c90de1.js.map": "/personal-website/static/js/main.92c90de1.js.map",
     "787.fb771931.chunk.js.map": "/personal-website/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f6174a1.css",
-    "static/js/main.2b18b35d.js"
+    "static/js/main.92c90de1.js"
   ]
 }
