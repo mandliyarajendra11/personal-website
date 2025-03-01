@@ -13,7 +13,7 @@ const Hero = () => {
             Building Impactful Digital Experiences
           </h3>
           <p className="hero__description">
-            With over 2 years in the industry, I’ve built and led 12+ projects
+            With over 4.5+ years in the industry, I’ve built and led 12+ projects
             and managed teams of developers. My technical strengths include
             Node.js, Fast API, React.js, and robust logging & monitoring. I also
             contribute to the tech community through my writings and YouTube

@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
       {/* <  BrowserRouter basename={process.env.PUBLIC_URL}> */}
-      {/* <Header />  */}
+      <Header /> 
       <Hero />
       <About />
       <Services />

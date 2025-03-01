@@ -17,15 +17,16 @@ const Services = () => {
       </ul>`,
     },
     {
-      companyName: "Freelancing",
-      role: "Frontend Developer",
-      startDate: "December-2022",
+      companyName: "Codes For Tomorrow",
+      role: "Full Stack Developer",
+      startDate: "December-2020",
       endDate: "June-2023",
       description: `<ul>
-        <li>Developed a bank loan web app as a frontend developer.</li>
+        <li>Worked on 4+ Live Projects</li>
         <li>Created charts, multi-dimensional tables, and managed complex forms.</li>
         <li>Handled 6+ route-based forms with state management.</li>
         <li>Used RTK Query for API caching and efficient data fetching.</li>
+        <li>Worked on Microservices and unit testing using Pytest</li>
       </ul>`,
     },
   ];

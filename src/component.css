@@ -89,6 +89,9 @@
  
 }
 @media (max-width: 599px) {
+  .header{
+    display: none;
+  }
   .bxs-moon {
     font-size: smaller;
   }
