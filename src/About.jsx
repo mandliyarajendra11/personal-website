@@ -14,7 +14,7 @@ export const About = () => {
           <h2>About Me</h2>
           <p>
             Hi, I’m <strong>Rajendra Mandliya</strong>, a passionate Full-Stack
-            Developer with <strong>2+ years</strong> of experience in building
+            Developer with <strong>4.5+ years</strong> of experience in building
             scalable and efficient web applications. I specialize in{" "}
             <strong>React, Node.js, and FastAPI</strong>, with expertise in API
             development, deployment, and performance optimization.

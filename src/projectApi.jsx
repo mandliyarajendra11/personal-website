@@ -11,7 +11,7 @@ const projectApi = [
       "- Configured API Gateway using Azure API Management and developed a custom developer portal, integrating OpenAPI, JWT, caching, and rate-limiting policies. \n" +
       "- Implemented a microservice architecture using Kafka and Azure API Management for 6 modules, enhancing scalability and system resilience. \n" +
       "- Built 2 monitoring dashboards using Azure Application Insights & Grafana to track API performance, Kafka health, and system exceptions.",
-    img: require("./images/no-preview.jpg"),
+    img: require("./images/catalyst.jpg"),
     where: "Associate With Techdome Solution",
   },
   {
@@ -23,7 +23,7 @@ const projectApi = [
       "Engineered 3 interactive IVR flows for customer service using Twilio. \n" +
       "Integrated Stripe for secure payment processing in the SIM activation portal, improving transaction speed. \n " +
       "Integrated Zoho CRM via webhook for real-time inventory data sync, streamlining updates.",
-    img: require("./images/no-preview.jpg"),
+    img: require("./images/telecom.jpg"),
     where: "Associate With Techdome Solution",
   },
   {
@@ -36,7 +36,7 @@ const projectApi = [
     - Enhanced the admin panel by implementing a live chat feature.
     - Designed the user interface for the CA panel.
     - Fixed bugs across the entire application.`,
-    img: require("./images/no-preview.jpg"),
+    img: require("./images/zerokar.jpg"),
     where: "Associate With Techdome Solution",
   },
   {
@@ -60,7 +60,7 @@ const projectApi = [
     - Designed a dashboard with charts to display daily, weekly, and monthly payments.  
     - Integrated a collection machine with the web app to automate data transfer.`,
     img: require("./images/no-preview.jpg"),
-    where: "Freelancing",
+    where: "Codes For Tomorrow",
   },
   {
     id: 6,
@@ -71,7 +71,7 @@ const projectApi = [
     - Integrated payment gateways, including Stripe and ACH transactions.  
     - Designed and implemented the frontend for the agent dashboard, displaying insured details under each agent.  
     - Created a logging and monitoring dashboard using Application Insights and set up alert rules for failed payments.`,
-    img: require("./images/no-preview.jpg"),
+    img: require("./images/insurance.jpg"),
     where: "Associate With Technogriff Solutions",
   },
   {
@@ -88,7 +88,7 @@ const projectApi = [
 
     img: require("./images/no-preview.jpg"),
     where: "Personal",
-    url: "https://github.com/mandliyarajendra11/e-commerce-web.git",
+    url: "https://github.com/mandliyarajendra11/pet-store",
   },
   {
     id: 8,
@@ -96,15 +96,15 @@ const projectApi = [
     des: `This portfolio website was originally created two years ago to showcase my skills and work. Recently, I revamped it with additional features and updated content to better reflect my experience and projects.`,
     img: require("./images/no-preview.jpg"),
     where: "Personal",
-    url: "https://github.com/mandliyarajendra11/e-commerce-web.git",
+    url: "https://github.com/mandliyarajendra11/personal-website",
   },
   {
     id: 9,
     headline: "Library management system",
     des: `The Library Management System is a personal project I developed two years ago. It is a book store application designed to manage books efficiently. I integrated the Google Books API to showcase book details, and the app includes features like a search functionality, category-based suggestions, a buy button that redirects users to the book purchase page, and an email-sending feature for notifications.`,
     img: require("./images/no-preview.jpg"),
-    where: "Open Source",
-    url: "https://github.com/mandliyarajendra11/e-commerce-web.git",
+    where: "Personal",
+    url: "https://github.com/mandliyarajendra11/LMS",
   },
 ];
 
