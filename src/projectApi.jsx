@@ -86,7 +86,7 @@ const projectApi = [
     - Search functionality  
     - Mail-sending feature for user inquiries`,
 
-    img: require("./images/no-preview.jpg"),
+    img: require("./images/pet-store.png"),
     where: "Personal",
     url: "https://github.com/mandliyarajendra11/pet-store",
   },
@@ -94,7 +94,7 @@ const projectApi = [
     id: 8,
     headline: "Portfolio",
     des: `This portfolio website was originally created two years ago to showcase my skills and work. Recently, I revamped it with additional features and updated content to better reflect my experience and projects.`,
-    img: require("./images/no-preview.jpg"),
+    img: require("./images/portfolio.png"),
     where: "Personal",
     url: "https://github.com/mandliyarajendra11/personal-website",
   },
